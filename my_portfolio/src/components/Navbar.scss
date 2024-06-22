@@ -1,0 +1,48 @@
+$main_color: #2A324B;
+$background_color: white;
+$links_color: #767B91;
+
+header{
+  position: sticky;
+  padding: 0px;
+  margin: 0px;
+  top: 0px;
+}
+nav {
+  background-color: $main_color;
+  color: $background_color;
+  font-family: 'League Gothic';
+  font-size: 20px;
+  padding: 0 2.5% 0 2.5%;
+}
+
+ul {
+  min-height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar_name {
+  font-size: 30px;
+  margin-right: auto;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+#navbar_name:hover {
+  color: $links_color;
+}
+
+.navbar_link {
+  text-decoration: none;
+  padding-right: 25px;
+  color: $links_color;
+}
+
+.navbar_link:hover {
+  color: $background_color;
+}

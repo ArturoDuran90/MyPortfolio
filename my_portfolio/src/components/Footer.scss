@@ -1,0 +1,21 @@
+$main_color: #2A324B;
+$background_color: #767B91;
+
+footer {
+  display: flex;
+  background-color: $main_color;
+  color: $background_color;
+  font-family: 'League Gothic';
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+}
+
+footer > span > a{
+  text-decoration: none;
+  color: $background_color;
+}
+footer > span > a:hover{
+  text-decoration: underline;
+}

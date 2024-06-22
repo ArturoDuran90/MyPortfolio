@@ -1,0 +1,26 @@
+$main_color: #2A324B;
+$background_color: #EEEEEE;
+$links_color: #767B91;
+$secondary_color: #F2D0A1;
+
+.box{
+  border: solid 1px black;
+}
+
+span {
+  margin: 0;
+  display: flex;
+  height: 93vh;
+}
+
+.side-space {
+  padding: 0 2.5% 0 2.5%;
+  background-color: $background_color;
+}
+
+.container {
+  flex: 1 1 10%;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  height: 100%;
+}

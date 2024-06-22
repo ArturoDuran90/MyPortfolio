@@ -1,0 +1,27 @@
+$main_color: #2A324B;
+$background_color: #EEEEEE;
+$links_color: #767B91;
+$secondary_color: #F2D0A1;
+
+.about_middle > div {
+  background-color: $secondary_color;
+}
+.about_left > div, .about_right > div {
+  background-color: $main_color;
+}
+.about_left {
+  background-color: $secondary_color;
+}
+.about_left, .about_right {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+}
+.about_middle {
+  display: grid;
+  grid-template-rows: .8fr 1.5fr 4fr;
+}
+.about_middle_child{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: auto;
+}

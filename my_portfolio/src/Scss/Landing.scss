@@ -1,0 +1,25 @@
+$main_color: #2A324B;
+$background_color: #EEEEEE;
+$links_color: #767B91;
+$secondary_color: #F2D0A1;
+
+.landing_middle > div:nth-child(1) {
+  background-color: $main_color;
+}
+.landing_middle > div {
+  background-color: $secondary_color;
+}
+.landing_left > div:nth-child(1), .landing_left > div:nth-child(2), .landing_right > div {
+  background-color: $main_color;
+}
+.landing_left {
+  background-color: $secondary_color;
+}
+.landing_left, .landing_right {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+}
+.landing_middle {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+}

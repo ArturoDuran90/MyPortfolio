@@ -1,4 +1,4 @@
-import './Navbar.scss';
+import '../Scss/Navbar.scss';
 
 function Navbar() {
   const refreshPage = ()=>{

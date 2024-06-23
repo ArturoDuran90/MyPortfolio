@@ -48,11 +48,12 @@ $background_color: #e0e0e0;
 #portrait_image {
   display: flex;
   align-items: center;
-  max-width: 250px;
+  max-width: 15vw;
   // min-width: 250px;
   width: auto;
+  margin: 0 0 0 10%;
   justify-content: flex-end;
-  max-height: 250px;
+  max-height: 15vw;
   border-radius: 50%;
   // vertical-align: middle;
 }
@@ -64,7 +65,7 @@ $background_color: #e0e0e0;
 }
 #title_container{
   > h1 {
-    font-size: 75px;
+    font-size: 4.5vw;
     font-weight: normal;
     font-stretch:wider;
     padding: 0;
@@ -80,16 +81,18 @@ $background_color: #e0e0e0;
 //   width: auto;
 //   height: auto;
 // }
-#introduction_text{
-  // > h3 {
-    font-size: 35px;
-    font-weight: normal;
-    // font-stretch: wider;
+.introduction_text{
+  // > span {
+  //   font-size: 35px;
+  //   font-weight: normal;
+  //   // font-stretch: wider;
   // }
+  font-size: 2vw;
+  font-weight: normal;
   display: flex;
   // flex: 100%;
   width: 70%;
-  display: flex;
+  // display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   text-align: left; /* Center the text horizontally */
@@ -170,7 +173,8 @@ aside {
 	align-items: center;
 	background-color: $secondary_color;
 	border-top-left-radius: 30px;
-	// border-top-right-radius: 20px;
 	height: 100%;
 	width: 100%;
 }
+
+

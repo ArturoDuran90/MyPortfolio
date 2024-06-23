@@ -1,5 +1,6 @@
 import '../Scss/Layout.scss';
 import '../Scss/Landing.scss';
+import '../Scss/Arrows.scss';
 import portrait from '../Assets/portrait.png';
 import githubLogo from '../Assets/githubLogo.png';
 import linkedinLogo from '../Assets/linkedinLogo.png';
@@ -40,14 +41,17 @@ function Landing() {
                 </div>
               </div>
               <div className='box landing_middle_inner_desc'>
-                <span className="box" id="introduction_text">
-                  A passionate and versatile Full-Stack Web Developer based in Utah,<br/> 
-                  skilled in JavaScript, ReactJS, Full-Stack Development,<br/>
-                  specializing in creating dynamic and User-Friendly Web Applications.
-                </span>
+                <div className="box introduction_text">
+                  A passionate and versatile Full-Stack Web Developer skilled in<br/> 
+                  JavaScript, ReactJS, Full-Stack Development, specializing<br/>
+                  in creating dynamic and User-Friendly Web Applications.
+                </div>
               </div>
             </div>
-            <div className="box arrows_container">Arrows</div>
+            <div className="box arrows_container">
+              <div className="arrow_big"></div>
+              <div className="arrow_small"></div>
+            </div>
           </div>
           <div className="box landing_right">
             <div className="box"></div>

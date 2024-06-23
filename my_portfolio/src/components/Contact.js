@@ -8,15 +8,15 @@ function Contact(){
       <span>
         <div className="box side-space"></div>
         <div className="box container">
-            <div className="box about_left"></div>
-            <div className="box about_middle">
+            <div className="box contact_left"></div>
+            <div className="box contact_middle">
               <div class="box">First Div Middle</div>
-              <div className="box about_middle_child">
-                <div className="box about_middle_child_left"></div>
-                <div className="box about_middle_child_right"></div>
+              <div className="box contact_middle_child">
+                <div className="box contact_middle_child_left"></div>
+                <div className="box contact_middle_child_right"></div>
               </div>
             </div>
-            <div className="box about_right"></div>
+            <div className="box contact_right"></div>
         </div>
         <div className="box side-space"></div>
       </span>

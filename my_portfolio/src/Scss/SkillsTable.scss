@@ -1,0 +1,43 @@
+$links_color: #767B91;
+$main_color: #2A324B;
+$secondary_color: #F2D0A1;
+$background_color: #e0e0e0;
+
+.skills_table {
+  > .section_subtitles {
+    text-align: center; /* Center the subtitle text */
+    font-size: 2.5em;
+    // margin-bottom: 1em; /* Add some space between subtitle and content */
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  // width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.skills_content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; /* Space the left and right sections evenly */
+}
+
+.skills_left,
+.skills_right {
+  > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // height: 100%;
+  }
+  // height: 100%;
+  width: 50%; /* Adjust the width of left and right sections */
+}
+
+.skills_left > ul{
+  text-align: left;
+}
+.skills_right > ul {
+  text-align: right; /* Align text to the right */
+}

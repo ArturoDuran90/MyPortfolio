@@ -1,6 +1,6 @@
-$main_color: #2A324B;
-$background_color: #EEEEEE;
 $links_color: #767B91;
+$main_color: #2A324B;
+$background_color: #e0e0e0;
 
 header{
   position: sticky;
@@ -13,7 +13,7 @@ nav {
   color: $background_color;
   font-family: 'League Gothic';
   font-size: 20px;
-  padding: 0 6% 0 8%;
+  padding: 0 2.5% 0 5%;
 }
 
 ul {
@@ -41,8 +41,7 @@ ul {
   text-decoration: none;
   padding-right: 25px;
   color: $links_color;
-}
-
-.navbar_link:hover {
-  color: $background_color;
+  &:hover {
+		color: $background_color;
+	}
 }

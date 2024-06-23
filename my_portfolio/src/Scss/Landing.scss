@@ -1,28 +1,87 @@
-$main_color: #2A324B;
-$background_color: #EEEEEE;
 $links_color: #767B91;
+$main_color: #2A324B;
 $secondary_color: #F2D0A1;
+$background_color: #e0e0e0;
 
-.landing_middle > div:nth-child(1) {
-  background-color: $main_color;
-}
-.landing_middle > div {
-  background-color: $secondary_color;
-}
-.landing_left > div:nth-child(1), .landing_left > div:nth-child(2) {
-  background-color: $main_color;
-}
 .landing_left {
-  background-color: $secondary_color;
-}
-.landing_right {
-  background-color: $main_color;
-}
-.landing_left {
-  display: grid;
-  grid-template-rows: 1fr 3fr 1fr;
+	>div {
+		&:nth-child(1) {
+			// background-color: $main_color;
+      background-color: $background_color;
+		}
+		&:nth-child(2) {
+			// background-color: $main_color;
+      background-color: $background_color;
+		}
+	}
+	display: grid;
+	grid-template-rows: .5fr 3fr 1fr;
 }
 .landing_middle {
-  display: grid;
-  grid-template-rows: 1fr 3fr 1fr;
+	>div {
+		&:nth-child(1) {
+			// background-color: $main_color;
+      background-color: $background_color;
+		}
+    &:nth-child(2) {
+			// background-color: $main_color;
+      background-color: $background_color;
+		}
+    &:nth-child(3) {
+			// background-color: $main_color;
+      background-color: $secondary_color;
+		}
+	}
+	display: grid;
+	grid-template-rows: .5fr 3fr 1fr;
+}
+.landing_right {
+	>div {
+		&:nth-child(1) {
+			// background-color: $main_color;
+      background-color: $background_color;
+		}
+		&:nth-child(2) {
+			// background-color: $main_color;
+      background-color: $background_color;
+		}
+    &:nth-child(3) {
+			// background-color: $main_color;
+      border-top-right-radius: 20px;
+      background-color: $secondary_color;
+		}
+	}
+	display: grid;
+	grid-template-rows: .5fr 3fr 1fr;
+}
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#linkedin_logo, #github_logo {
+	max-width: 30px;
+	width: 100%;
+	padding: 5px;
+}
+#linkedin_container, #github_container {
+	display: flex;
+	margin: 5px;
+	cursor: pointer;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	width: 7em;
+}
+aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: $secondary_color;
+	border-top-left-radius: 20px;
+	// border-top-right-radius: 20px;
+	height: 100%;
+	width: 100%;
 }

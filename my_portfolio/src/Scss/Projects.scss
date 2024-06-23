@@ -3,10 +3,6 @@ $background_color: #EEEEEE;
 $links_color: #767B91;
 $secondary_color: #F2D0A1;
 
-.box {
-  border: solid 1px black;
-}
-
 .flexible-span {
   display: flex;
   height: auto; /* Allow height to adapt to content */
@@ -18,33 +14,30 @@ $secondary_color: #F2D0A1;
   background-color: $background_color;
 }
 
-.container {
-  flex: 1; /* Take up remaining space */
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-  height: 100%;
-}
+// .container {
+//   flex: 1; /* Take up remaining space */
+//   display: grid;
+//   grid-template-columns: 1fr 6fr 1fr;
+//   height: 100%;
+// }
 
 .projects_middle > div {
   background-color: $secondary_color;
 }
 
-.projects_left > div, .projects_right > div {
-  background-color: $main_color;
-}
-
-.projects_left {
-  background-color: $secondary_color;
-}
-
 .projects_left, .projects_right {
   display: grid;
-  
+  background-color: $main_color;
 }
 
 .projects_middle {
   display: grid;
-  grid-auto-rows: min-content; /* Ensure rows adapt to content height */
+  // grid-auto-rows: min-content; /* Ensure rows adapt to content height */
+
+}
+
+.projects_middle_title{
+  height: 100px;
 }
 
 .projects_middle_child_1 {

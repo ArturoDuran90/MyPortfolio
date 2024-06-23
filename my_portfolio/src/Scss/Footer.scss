@@ -1,10 +1,11 @@
 $main_color: #2A324B;
-$background_color: #767B91;
+$background_color: #EEEEEE;
+$links_color: #767B91;
 
 footer {
   display: flex;
   background-color: $main_color;
-  color: $background_color;
+  color: $links_color;
   font-family: 'League Gothic';
   font-size: 15px;
   justify-content: center;
@@ -12,10 +13,10 @@ footer {
   min-height: 5vh;
 }
 
-footer > span > a{
+footer > p > a{
   text-decoration: none;
-  color: $background_color;
+  color: $links_color;
 }
-footer > span > a:hover{
+footer > p > a:hover{
   text-decoration: underline;
 }

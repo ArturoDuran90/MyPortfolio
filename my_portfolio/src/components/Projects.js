@@ -9,7 +9,7 @@ function Projects() {
         <div className="box container">
           <div className="box projects_left"></div>
           <div className="box projects_middle">
-            <div className="box">First Div Middle</div>
+            <div className="box projects_middle_title">First Div Middle</div>
             <div className="box projects_middle_child_1">
               <div className="box projects_middle_child_1_left"></div>
               <div className="box projects_middle_child_1_right"></div>

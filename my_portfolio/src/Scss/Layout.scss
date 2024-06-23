@@ -10,7 +10,7 @@ $background_color: #e0e0e0;
 span {
   margin: 0;
   display: flex;
-  height: 93vh;
+  height: 95vh;
 }
 
 .side-space {
@@ -21,6 +21,6 @@ span {
 .container {
   flex: 1 1 10%;
   display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-columns: 1fr 4.5fr 1fr;
   height: 100%;
 }

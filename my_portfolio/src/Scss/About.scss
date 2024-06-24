@@ -2,6 +2,7 @@ $links_color: #767B91;
 $main_color: #2A324B;
 $secondary_color: #F2D0A1;
 $background_color: #e0e0e0;
+$text_color: #202020;
 
 .flexible-span {
 	display: flex;
@@ -55,7 +56,7 @@ $background_color: #e0e0e0;
   //  margin-right: 10px;
   border-radius: 30px;
   background-color: $links_color;
-  color: black;
+  color: $text_color;
   letter-spacing: 1px;
   // padding: 15px 0px 15px 0px;
   // margin: 0px 0px 0px 100px;

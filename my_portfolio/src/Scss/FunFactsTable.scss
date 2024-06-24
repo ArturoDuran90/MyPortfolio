@@ -2,6 +2,7 @@ $links_color: #767B91;
 $main_color: #2A324B;
 $secondary_color: #F2D0A1;
 $background_color: #e0e0e0;
+$text_color: #202020;
 
 .fun_facts_table {
   .section_subtitles {
@@ -74,6 +75,7 @@ $background_color: #e0e0e0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  color:$text_color
 }
 
 .fun_facts ul li {

@@ -41,16 +41,16 @@ function Landing() {
                 </div>
               </div>
               <div className='box landing_middle_inner_desc'>
-                <div className="box introduction_text">
+                <div className="box landing_introduction_text">
                   A passionate and versatile Full-Stack Web Developer skilled in<br/> 
-                  JavaScript, ReactJS, Full-Stack Development, specializing<br/>
+                  JavaScript, ReactJS, Full-Stack Development, and more. Specializing<br/>
                   in creating dynamic and User-Friendly Web Applications.
                 </div>
               </div>
             </div>
             <div className="box arrows_container">
-              <div className="arrow_big"></div>
-              <div className="arrow_small"></div>
+              <div className="arrows arrow_big"></div>
+              <div className="arrows arrow_small"></div>
             </div>
           </div>
           <div className="box landing_right">

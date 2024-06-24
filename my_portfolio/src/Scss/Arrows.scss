@@ -1,35 +1,31 @@
 $arrows_color: #000;
 $arrows_size_big: 30px;
 $arrows_size_small: 20px; 
-$arrows_spacing: 15px; // Space between the arrows
+$arrows_spacing: 15px;
 
 .arrows_container {
-  > .arrow_big {
-    width: $arrows_size_big;
-    height: $arrows_size_big;
+  > .arrows {
     border-left: solid $arrows_color;
     border-bottom: solid $arrows_color;
     transform: rotate(-45deg);
     animation: bounce 2s infinite;
   }
+  > .arrow_big {
+    width: $arrows_size_big;
+    height: $arrows_size_big;
+  }
   > .arrow_small {
     width: $arrows_size_small;
     height: $arrows_size_small;
-    border-left: solid $arrows_color;
-    border-bottom: solid $arrows_color;
-    transform: rotate(-45deg);
-    animation: bounce 2s infinite;
   }
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .arrow:not(:last-child) {
   margin-bottom: $arrows_spacing;
 }
-
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0) rotate(-45deg);

@@ -13,19 +13,27 @@ $background_color: #e0e0e0;
 		background-color: $secondary_color;
 	}
 	display: grid;
-	grid-template-rows: .5fr 1fr 3fr;
+	grid-template-rows: .5fr 1fr auto;
 }
 .about_middle_inner_desc {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  // width: 100%;
+  // height: 100%;
+  // margin: 5% 0 5% 0;
 }
 .about_introduction_text{
-  > p {
+  > p .highlight{
     color: $background_color;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+    display: inline;
+    
   }
+  // margin: 3% 0 3% 0;
   // > span {
   //   font-size: 35px;
   //   font-weight: normal;
@@ -41,6 +49,7 @@ $background_color: #e0e0e0;
   align-items: center; /* Center vertically */
   text-align: left; /* Center the text horizontally */
   height: 100%;
+  // margin: 1% 0 % 0;
   // text-wrap: wrap;
   //  margin-left: 10px;
   //  margin-right: 10px;
@@ -49,7 +58,7 @@ $background_color: #e0e0e0;
   color: black;
   letter-spacing: 1px;
   // padding: 15px 0px 15px 0px;
-  // margin: 0px px 0px 100px;
+  // margin: 0px 0px 0px 100px;
   // padding: 5px;
 }
 .about_left {
@@ -59,40 +68,14 @@ $background_color: #e0e0e0;
 	display: grid;
 	grid-template-rows: 1.5fr 6.25fr;
 	background-color: $secondary_color;
+  border-radius: 0 0 0 30px;
 }
-.about_middle_child_left {
-  > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 85%;
-    height: 70vh;
-    border-radius: 30px;
-    margin: 2vh 0 2vh 0;
-    background-color: $main_color;
-  }
+.about_middle_child_left, .about_middle_child_right {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
-}
-.about_middle_child_right {
-  > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 85%;
-    height: 30vh;
-    border-radius: 30px;
-    margin: 2vh 0 2vh 0;
-    background-color: $links_color;
-  }
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+  height: auto;
 }
 .about_right {
 	>div {
@@ -101,9 +84,50 @@ $background_color: #e0e0e0;
 	display: grid;
 	grid-template-rows: 1.5fr 6.25fr;
 	background-color: $secondary_color;
+  border-radius: 0 0 30px 0;
 }
 .about_middle_child {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-column: auto;
 }
+
+
+// .skills_table {
+//   > .section_subtitles {
+//     text-align: center; /* Center the subtitle text */
+//     font-size: 2.5em;
+//     // margin-bottom: 1em; /* Add some space between subtitle and content */
+//   }
+//   display: flex;
+//   flex-direction: column;
+//   // align-items: center; /* Center the content horizontally */
+//   // width: 100%;
+//   height: 100vh;
+//   justify-content: space-between;
+// }
+
+// .skills_content {
+//   display: flex;
+//   width: 100%;
+//   justify-content: space-between; /* Space the left and right sections evenly */
+// }
+
+// .skills_left,
+// .skills_right {
+//   > ul{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     // height: 100%;
+//   }
+//   // height: 100%;
+//   width: 50%; /* Adjust the width of left and right sections */
+// }
+
+// .skills_left > ul{
+//   text-align: left;
+// }
+// .skills_right > ul {
+//   text-align: right; /* Align text to the right */
+// }

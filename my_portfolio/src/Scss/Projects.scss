@@ -14,13 +14,13 @@ $background_color: #e0e0e0;
 // }
 .projects_middle {
 	>div {
-		background-color: $secondary_color;
+		background-color: $background_color;
 	}
 	display: grid;
 }
 .projects_left, .projects_right {
   display: grid;
-  background-color: $main_color;
+  background-color: $background_color;
 }
 .projects_middle_title {
 	height: 100px;

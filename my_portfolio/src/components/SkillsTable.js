@@ -2,10 +2,11 @@ import '../Scss/SkillsTable.scss';
 
 function SkillsTable(){
   return(
-    <div className='box skills_table'>
-      <h2 className='section_subtitles'>Skills</h2>
-      <div className='box skills_content'>
-        <div className='box skills_left'>
+    <>
+     <span className='box skills_table'>
+      <h2 className=' section_subtitles'>Skills</h2>
+      <div className=' skills_content'>
+        <div className='skills_left'>
           <ul>
             <li><label>JavaScript</label></li>
             <li><label>JFX</label></li>
@@ -21,7 +22,7 @@ function SkillsTable(){
             <li><label>MongoDB</label></li>
           </ul>
         </div>
-        <div className='box skills_right'>
+        <div className='skills_right'>
           <ul>
             <li><label>MySQL</label></li>
             <li><label>RestAPI</label></li>
@@ -38,7 +39,8 @@ function SkillsTable(){
           </ul>
         </div>
       </div>
-    </div>
+     </span>
+    </>
   );
 }
 

@@ -8,7 +8,7 @@ $text_color: #202020;
 	display: grid;
 	grid-column: auto;
 	height: auto;
-	margin: 2% 4%;
+	margin: 3.5% 4%;
 	padding: 1%;
 	background-color: $secondary_color;
 	border-radius: 30px;
@@ -88,4 +88,7 @@ $text_color: #202020;
 }
 .image_container:hover .project_title_overlay {
 	opacity: 1;
+}
+.coming_soon{
+	height: 200px;
 }

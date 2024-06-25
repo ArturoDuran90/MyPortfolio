@@ -8,7 +8,7 @@ function About(){
     <>
       <span className="flexible-span">
         <div className="box side-space"></div>
-        <div className="box container">
+        <div className="box container" id="about">
             <div className="box about_left"></div>
             <div className="box about_middle">
               <div className="box section_titles_container">

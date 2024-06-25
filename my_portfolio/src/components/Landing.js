@@ -10,7 +10,7 @@ function Landing() {
     <>
       <span>
         <div className="box side-space"></div>
-        <div className="box container">
+        <div className="box container" id="home">
           <div className="box landing_left">
             <div className="box"></div>
             <div className="box"></div>

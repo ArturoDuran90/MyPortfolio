@@ -7,10 +7,12 @@ function Contact(){
     <>
       <span>
         <div className="box side-space"></div>
-        <div className="box container">
+        <div className="box container" id="contact">
             <div className="box contact_left"></div>
             <div className="box contact_middle">
-              <div class="box">First Div Middle</div>
+              <div className="box section_titles_container">
+                <h1 className='section_titles'>Contact me</h1>
+              </div>
               <div className="box contact_middle_child">
                 <div className="box contact_middle_child_left"></div>
                 <div className="box contact_middle_child_right"></div>

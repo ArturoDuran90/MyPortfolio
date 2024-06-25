@@ -8,7 +8,7 @@ function Projects() {
       <span className="flexible-span">
         <div className="box side-space"></div>
         <div className="box container">
-          <div className="box projects_left"></div>
+          <div className="box projects_left" id="projects"></div>
           <div className="box projects_middle">
             <div className="box section_titles_container">
               <h1 className='section_titles'>Projects</h1>

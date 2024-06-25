@@ -5,6 +5,11 @@ $background_color: #e0e0e0;
 $text_color: #202020;
 
 .contact_middle {
+	display: grid;
+	// grid-template-rows: .5fr 1fr auto;
+  background-color: $secondary_color;
+}
+.contact_middle {
 	>div {
 		background-color: $secondary_color;
 	}
@@ -12,7 +17,13 @@ $text_color: #202020;
 	grid-template-rows: .2fr;
 }
 .contact_left, .contact_right {
-  background-color: $main_color;
+  background-color: $secondary_color;
+}
+.contact_left{
+	border-radius: 30px 0 0 0;
+}
+.contact_right{
+	border-radius: 0 30px 0 0 ;
 }
 .contact_middle_child {
 	display: grid;

@@ -14,10 +14,6 @@ function Projects() {
               <h1 className='section_titles'>Projects</h1>
             </div>
             <ProjectsSections />
-            {/* <div className="box projects_middle_child_2">
-              <div className="box projects_middle_child_2_left"></div>
-              <div className="box projects_middle_child_2_right"></div>
-            </div> */}
           </div>
           <div className="box projects_right"></div>
         </div>

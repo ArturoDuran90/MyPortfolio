@@ -12,20 +12,13 @@ $text_color: #202020;
 .section_titles_container{
 	margin:2%;
 }
-
 .projects_middle {
 	> div {
 		background-color: $background_color;
 	}
 	color: $text_color;
 }
-
 .projects_left, .projects_right {
 	display: grid;
 	background-color: $background_color;
 }
-
-// .projects_middle_title {
-// 	height: 100%;
-// }
-

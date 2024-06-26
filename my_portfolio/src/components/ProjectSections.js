@@ -81,7 +81,7 @@ function ProjectsSections() {
           </div>
         </div>
         <div className="box projects_middle_child_2_right">
-          <a id="image_container" className="image_container" href="https://review-it.herokuapp.com" target="_blank" rel="noreferrer">
+          <a id="image_container" className="image_container" href="https://main.d215kahaxd6ror.amplifyapp.com/" target="_blank" rel="noreferrer">
             <img className="project_image" src={LangOwl} alt="LangOwl Homepage" />
             <div className="project_title_overlay">View Project</div>
           </a>

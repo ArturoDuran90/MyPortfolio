@@ -16,13 +16,13 @@ function Landing() {
             <div className="box"></div>
             <div className="box flex-center">
               <aside className="box">
-                <div className='box landing_socials'>
-                  <a id="linkedin_container" href="https://www.linkedin.com/in/arturoduran" target="_blank" rel="noreferrer">
+                <div className='box'>
+                  <a className="landing_socials"href="https://www.linkedin.com/in/arturoduran" target="_blank" rel="noreferrer">
                     <img className="socials_image" src={linkedinLogo} alt="LinkedIn"/>/arturoduran
                   </a>
                 </div>
                 <div className="box">
-                  <a id="github_container" href="https://github.com/ArturoDuran90" target="_blank" rel="noreferrer">
+                  <a className="landing_socials" id="github_container" href="https://github.com/ArturoDuran90" target="_blank" rel="noreferrer">
                     <img className="socials_image" src={githubLogo} alt="GitHub"/>ArturoDuran90
                   </a>
                 </div>

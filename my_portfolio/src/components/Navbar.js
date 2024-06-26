@@ -7,7 +7,6 @@ function Navbar() {
 
   return(
     <>
-    {/* Code for old navbar */}
     <header>
       <nav id="navbar">
         <ul>

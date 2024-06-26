@@ -24,7 +24,6 @@ $text_color: #202020;
   margin: 2vh 0 2vh 0;
   background-color: $main_color;
 }
-
 .skills_content {
   display: flex;
   flex-direction: row;
@@ -34,40 +33,28 @@ $text_color: #202020;
   letter-spacing: 1px;
   margin: 0 0 10% 0;
 }
-
 .skills_left,
 .skills_right {
   width: 50%;
 }
-
 .skills_left ul,
 .skills_right ul {
   display: flex;
   flex-direction: column;
 }
-
 .skills_left {
   > ul{
-    align-items: flex-start; /* Align items to the start (left) */
+    align-items: flex-start;
   }
   border-right: solid $background_color .5px;
 }
 .skills_right {
   > ul{
-    align-items: flex-end; /* Align items to the start (left) */
+    align-items: flex-end;
   }
   border-left: solid $background_color .5px;
 }
-
 .skills_left ul li,
 .skills_right ul li {
   margin: 0.2em 0;
 }
-
-// .skills_left ul li label {
-//   text-align: left;
-// }
-
-// .skills_right ul li label {
-//   text-align: right;
-// }

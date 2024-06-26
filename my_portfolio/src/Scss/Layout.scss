@@ -7,15 +7,12 @@ $text_color: #202020;
 // .box{
 //   border: solid 1px $text_color;
 // }
-
 span {
   margin: 0;
   display: flex;
   height: 95vh;
 }
-
 .side-space {
-  // padding: 0 2.5% 0 2.5%;
   background-color: $background_color;
 }
 .section_titles_container{
@@ -31,8 +28,6 @@ span {
   display: grid;
   height: auto;
 }
-
-
 .container {
   flex: 1 1 10%;
   display: grid;

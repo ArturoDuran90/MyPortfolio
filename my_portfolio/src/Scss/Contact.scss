@@ -5,16 +5,13 @@ $background_color: #e0e0e0;
 $text_color: #202020;
 
 .contact_middle {
-	display: grid;
-	// grid-template-rows: .5fr 1fr auto;
-  background-color: $secondary_color;
-}
-.contact_middle {
 	>div {
 		background-color: $secondary_color;
 	}
 	display: grid;
 	grid-template-rows: .2fr;
+	height: auto;
+	background-color: $secondary_color;
 }
 .contact_left, .contact_right {
   background-color: $secondary_color;
@@ -25,8 +22,53 @@ $text_color: #202020;
 .contact_right{
 	border-radius: 0 30px 0 0 ;
 }
+.contact_middle_content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	flex-direction: column;
+}
+#contact_message{
+	text-align: center;
+	font-size: 2em;
+}
+.contact_socials {
+	display: flex;
+	margin: 1em;
+	padding: 5px;
+	cursor: pointer;
+	align-items: center;
+	text-decoration: none;
+	background-color: $background_color;
+	color: $text_color;
+	border-radius: 20px;
+}
+.contact_socials_container_child{
+	display: flex;
+	flex-direction: column;
+}
+#contact_portrait_image{
+  max-width: 15vw;
+  width: auto;
+  max-height: 15vw;
+  border-radius: 50%;
+}
+.portrait_container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+}
+.contact_socials_container{
+	display: flex;
+	flex-direction: row-reverse;
+	width: fit-content;
+	height: auto;
+	margin: 2em;
+}
 .contact_middle_child {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column: auto;
+	height: fit-content;
 }

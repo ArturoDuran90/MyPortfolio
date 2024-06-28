@@ -21,8 +21,14 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Clean build directory
+      run: rm -rf build
+
     - name: Build the app
       run: npm run build
+
+    - name: List build files for debugging
+      run: ls -R build
 
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v1

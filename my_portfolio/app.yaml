@@ -1,9 +1,14 @@
 runtime: nodejs18
 
 handlers:
-  - url: /static
-    static_dir: build/static
-
-  - url: /(.*)
+  - url: /
     static_files: build/index.html
     upload: build/index.html
+
+  - url: /
+    static_dir: build
+
+skip_files:
+  - ^node_modules$
+  - ^.gitignore$
+  - ^.gcloudignore$

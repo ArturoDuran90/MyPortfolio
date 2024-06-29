@@ -7,8 +7,3 @@ handlers:
 
   - url: /
     static_dir: build
-
-skip_files:
-  - ^node_modules$
-  - ^.gitignore$
-  - ^.gcloudignore$
